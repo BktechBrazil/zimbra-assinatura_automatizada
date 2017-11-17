@@ -43,7 +43,7 @@ Com_Zimbra_SignatureZimlet.prototype._createDialogView = function() {
 Com_Zimbra_SignatureZimlet.prototype.singleClicked = function() {
   var zimletInstance = appCtxt._zimletMgr.getZimletByName('com_zimbra_signature_zimlet').handlerObject;
 // var bottomImageUrl = zimletInstance.getResource('images/bottom.jpg');
-  var bottomImageUrl = "https://mail.bktech.com.br/public/signature/bottom.jpg";
+  var bottomImageUrl = "https://raw.githubusercontent.com/Zimbra-Community/signature-template/master/images/zeta-alliance.png";
 
   var signatureContents;
 
@@ -110,7 +110,7 @@ Com_Zimbra_SignatureZimlet.prototype._error = function() {
 Com_Zimbra_SignatureZimlet.prototype._okBtnListener = function() {
   var zimletInstance = appCtxt._zimletMgr.getZimletByName('com_zimbra_signature_zimlet').handlerObject;
 //  var bottomImageUrl = zimletInstance.getResource('images/bottom.jpg');
-  var bottomImageUrl = "https://mail.bktech.com.br/public/signature/bottom.jpg";
+  var bottomImageUrl = "https://raw.githubusercontent.com/Zimbra-Community/signature-template/master/images/zeta-alliance.png";
 
   var signatureName = document.querySelector('[name=signature_name_prop]');
   var signatureOccupation = document.querySelector('[name=signature_occupation_prop]');
