@@ -8,9 +8,9 @@ Através desse Zimlet, que é distribuído como open source, é possível defini
 ### INSTALAÇÃO
 
 (em progresso) 
-# su - zimbra
-$ cd /tmp
-$ git clone https://github.com/BktechBrazil/assinatura_automatizada.git
+su - zimbra
+cd /tmp
+git clone https://github.com/BktechBrazil/assinatura_automatizada.git
 
 
 ### License
