@@ -5,6 +5,14 @@ English version: https://github.com/Zimbra-Community/signature-template
 (pt_BR)
 Através desse Zimlet, que é distribuído como open source, é possível definir uma assinatura padrão para a organização, e os usuários inserem os seus dados diretamente no cliente web. desenvolvido pela Bktech (http://www.bktech.com.br) em parceria com a Zeta Alliance (https://zetalliance.org). Versão em português brasileiro (pt_BR). Compatível a partir da versão 8.7 do Zimbra.
 
+### INSTALAÇÃO
+
+(em progresso) 
+# su - zimbra
+$ cd /tmp
+$ git clone https://github.com/BktechBrazil/assinatura_automatizada.git
+
+
 ### License
 
 Copyright (C) 2017  Barry de Graaff [Zeta Alliance](http://www.zetalliance.org/)
