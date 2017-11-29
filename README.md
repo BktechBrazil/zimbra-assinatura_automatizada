@@ -14,7 +14,7 @@ Através desse Zimlet, que é distribuído como open source, é possível defini
 -  su - zimbra
 -  cd /tmp
 -  git clone https://github.com/BktechBrazil/zimbra-assinatura_automatizada.git
--  cd assinatura_automatizada
+-  cd zimbra-assinatura_automatizada
 -  Para utilizar o próprio servidor Zimbra para armazenar a imagem da assinatura, copie a imagem que deseja utilizar para o diretório /opt/zimbra/jetty/webapps/zimbra/public
 -  A URL será como o exemplo: https://seuservidor.seudominio.com.br/public/exemplo.png
 -  Se o ambiente for Multi-Server, execute o mesmo procedimento em todos os servidores Mailbox
